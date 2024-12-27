@@ -34,13 +34,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 500
       behaviors: #excess damage, don't spawn entities.
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 50
+        damage: 200
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -71,7 +71,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 200
+            damage: 500
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -80,7 +80,7 @@
                 collection: MetalBreak
         - trigger:
             !type:DamageTrigger
-            damage: 50
+            damage: 200
           behaviors:
             - !type:SpawnEntitiesBehavior
               spawn:

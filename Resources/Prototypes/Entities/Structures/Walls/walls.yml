@@ -71,7 +71,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 500
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -104,7 +104,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 500
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -140,7 +140,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 500
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -174,7 +174,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100 # weak
+        damage: 400 # weak
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -203,7 +203,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 500
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -234,7 +234,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 500
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -267,7 +267,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 900
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -303,7 +303,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 500
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -312,7 +312,7 @@
         acts: ["Destruction"]
     - trigger:
         !type:DamageTrigger
-        damage: 150
+        damage: 450
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -341,7 +341,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 400
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -377,7 +377,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 400
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -386,7 +386,7 @@
         acts: ["Destruction"]
     - trigger:
         !type:DamageTrigger
-        damage: 150
+        damage: 250
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -598,7 +598,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 600
+        damage: 800
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -607,7 +607,7 @@
           collection: MetalSlam
     - trigger:
         !type:DamageTrigger
-        damage: 400
+        damage: 600
       behaviors:
       - !type:PlaySoundBehavior
         sound:

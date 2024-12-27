@@ -80,7 +80,7 @@ public sealed class ThrowingSystem : EntitySystem
     /// <param name="doSpin">Whether spin will be applied to the thrown entity.</param>
     public void TryThrow(EntityUid uid,
         Vector2 direction,
-        float baseThrowSpeed = 10.0f,
+        float baseThrowSpeed = 40.0f,
         EntityUid? user = null,
         float pushbackRatio = PushbackDefault,
         float? friction = null,
@@ -123,7 +123,7 @@ public sealed class ThrowingSystem : EntitySystem
         PhysicsComponent physics,
         TransformComponent transform,
         EntityQuery<ProjectileComponent> projectileQuery,
-        float baseThrowSpeed = 10.0f,
+        float baseThrowSpeed = 30.0f,
         EntityUid? user = null,
         float pushbackRatio = PushbackDefault,
         float? friction = null,

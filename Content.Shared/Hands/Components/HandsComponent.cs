@@ -43,14 +43,14 @@ public sealed partial class HandsComponent : Component
     /// </summary>
     [DataField]
     [ViewVariables(VVAccess.ReadWrite)]
-    public float BaseThrowspeed { get; set; } = 11f;
+    public float BaseThrowspeed { get; set; } = 40f;
 
     /// <summary>
     ///     Distance after which longer throw targets stop increasing throw impulse.
     /// </summary>
     [DataField("throwRange")]
     [ViewVariables(VVAccess.ReadWrite)]
-    public float ThrowRange { get; set; } = 8f;
+    public float ThrowRange { get; set; } = 12f;
 
     /// <summary>
     ///     Whether or not to add in-hand sprites for held items. Some entities (e.g., drones) don't want these.

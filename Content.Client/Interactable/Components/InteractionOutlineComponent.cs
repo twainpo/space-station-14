@@ -10,7 +10,7 @@ namespace Content.Client.Interactable.Components
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
         [Dependency] private readonly IEntityManager _entMan = default!;
 
-        private const float DefaultWidth = 1;
+        private const float DefaultWidth = 0.6f;
 
         [ValidatePrototypeId<ShaderPrototype>]
         private const string ShaderInRange = "SelectionOutlineInrange";

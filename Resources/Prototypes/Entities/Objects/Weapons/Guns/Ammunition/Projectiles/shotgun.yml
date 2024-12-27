@@ -10,7 +10,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 28
+        Piercing: 40
 
 - type: entity
   id: PelletShotgunBeanbag
@@ -26,7 +26,7 @@
       types:
         Blunt: 10
   - type: StaminaDamageOnCollide
-    damage: 40 # 3 hits to stun
+    damage: 50 # 3 hits to stun
 
 - type: entity
   id: PelletShotgun
@@ -40,7 +40,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 10
+        Piercing: 20
 
 - type: entity
   id: PelletShotgunSpread
@@ -50,7 +50,7 @@
   - type: ProjectileSpread
     proto: PelletShotgun
     count: 6
-    spread: 15
+    spread: 10
 
 - type: entity
   id: PelletShotgunIncendiary
@@ -64,7 +64,7 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 3
+        Blunt: 15
         Heat: 7
   - type: IgnitionSource
     ignited: true
@@ -101,7 +101,7 @@
   - type: ProjectileSpread
     proto: PelletShotgunPractice
     count: 6
-    spread: 15
+    spread: 10
 
 - type: entity
   id: PelletShotgunImprovised
@@ -115,8 +115,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 3
-        Slash: 3
+        Piercing: 20
+        Slash: 15
 
 - type: entity
   id: PelletShotgunImprovisedSpread
@@ -126,7 +126,7 @@
   - type: ProjectileSpread
     proto: PelletShotgunImprovised
     count: 10
-    spread: 45
+    spread: 13
 
 - type: entity
   id: PelletShotgunTranquilizer
@@ -214,8 +214,8 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 5
-        Piercing: 5
+        Radiation: 15
+        Piercing: 10
 
 - type: entity
   id: PelletShotgunUraniumSpread
@@ -273,7 +273,7 @@
     deleteOnCollide: false
     damage:
       types:
-        Slash: 25
+        Slash: 5
 
 - type: entity
   id: PelletGlassSpread
@@ -282,5 +282,5 @@
   components:
   - type: ProjectileSpread
     proto: PelletGlass
-    count: 5
+    count: 12
     spread: 10

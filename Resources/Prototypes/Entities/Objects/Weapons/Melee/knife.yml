@@ -16,7 +16,7 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Slash: 10
+        Slash: 30
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
   - type: Sprite
@@ -64,10 +64,10 @@
     state: butch
   - type: MeleeWeapon
     wideAnimationRotation: -115
-    attackRate: 1.5
+    attackRate: 1.2
     damage:
       types:
-        Slash: 13
+        Slash: 45
   - type: Item
     size: Normal
     sprite: Objects/Weapons/Melee/cleaver.rsi
@@ -90,11 +90,11 @@
     sprite: Objects/Weapons/Melee/combat_knife.rsi
     state: icon
   - type: MeleeWeapon
-    wideAnimationRotation: -135
+    wideAnimationRotation: -95
     attackRate: 1.5
     damage:
       types:
-        Slash: 12
+        Slash: 45
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
     offset: -0.15,0.0
@@ -102,7 +102,7 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Slash: 10
+        Slash: 45
   - type: Item
     sprite: Objects/Weapons/Melee/combat_knife.rsi
     storedSprite:
@@ -141,7 +141,7 @@
     attackRate: 1.0
     damage:
       types:
-        Slash: 15
+        Slash: 50
   - type: Item
     sprite: Objects/Weapons/Melee/kukri_knife.rsi
     storedSprite: null
@@ -161,11 +161,11 @@
     attackRate: 1.2
     damage:
       types:
-        Slash: 5
+        Slash: 25
   - type: DamageOtherOnHit
     damage:
       types:
-        Slash: 10
+        Slash: 25
   - type: LandAtCursor
   - type: Sprite
     sprite: Clothing/Head/Hats/greyflatcap.rsi
@@ -206,7 +206,7 @@
     attackRate: 1.5
     damage:
       types:
-        Slash: 5.5
+        Slash: 40
   - type: Item
     sprite: Objects/Weapons/Melee/shiv.rsi
   - type: DisarmMalus
@@ -225,7 +225,7 @@
     attackRate: 1.5
     damage:
       types:
-        Slash: 7 #each "tier" grants an additional 2 damage
+        Slash: 45 #each "tier" grants an additional 2 damage
   - type: Item
     sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
   - type: Sprite
@@ -244,7 +244,7 @@
     attackRate: 1.5
     damage:
       types:
-        Slash: 9
+        Slash: 50
   - type: Item
     sprite: Objects/Weapons/Melee/plasma_shiv.rsi
   - type: Sprite
@@ -263,8 +263,8 @@
     attackRate: 1.5
     damage:
       types:
-        Slash: 7
-        Radiation: 4
+        Slash: 30
+        Radiation: 20
   - type: Item
     sprite: Objects/Weapons/Melee/uranium_shiv.rsi
   - type: Sprite
@@ -288,7 +288,7 @@
     attackRate: 2
     damage:
       types:
-        Slash: 5
+        Slash: 35
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
     offset: -0.15,0.0
@@ -297,8 +297,8 @@
     ignoreResistances: true
     damage:
       types:
-        Slash: 10
-        Piercing: 15
+        Slash: 20
+        Piercing: 25
   - type: Item
     sprite: Objects/Weapons/Melee/throwing_knife.rsi
   - type: ThrowingAngle

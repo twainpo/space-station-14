@@ -17,7 +17,7 @@ namespace Content.Shared.Throwing;
 
 public sealed class ThrowingSystem : EntitySystem
 {
-    public const float ThrowAngularImpulse = 5f;
+    public const float ThrowAngularImpulse = 10f;
 
     /// <summary>
     /// Speed cap on rotation in case of click-spam.
@@ -26,7 +26,7 @@ public sealed class ThrowingSystem : EntitySystem
 
     public const float PushbackDefault = 2f;
 
-    public const float FlyTimePercentage = 0.8f;
+    public const float FlyTimePercentage = 0.3f;
 
     private float _frictionModifier;
 
@@ -49,7 +49,7 @@ public sealed class ThrowingSystem : EntitySystem
     public void TryThrow(
         EntityUid uid,
         EntityCoordinates coordinates,
-        float baseThrowSpeed = 10.0f,
+        float baseThrowSpeed = 20.0f,
         EntityUid? user = null,
         float pushbackRatio = PushbackDefault,
         float? friction = null,

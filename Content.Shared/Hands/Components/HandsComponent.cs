@@ -76,7 +76,7 @@ public sealed partial class HandsComponent : Component
     ///     The minimum time inbetween throws.
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public TimeSpan ThrowCooldown = TimeSpan.FromSeconds(0.1f);
+    public TimeSpan ThrowCooldown = TimeSpan.FromSeconds(0.25f);
 
     [DataField]
     public DisplacementData? HandDisplacement;
@@ -89,7 +89,7 @@ public sealed partial class HandsComponent : Component
 }
 
 [Serializable, NetSerializable]
-public sealed class Hand //TODO: This should definitely be a struct - Jezi
+public sealed class Hand //TODO: This should definitely be a struct - Jezi the furfaggot
 {
     [ViewVariables]
     public string Name { get; }

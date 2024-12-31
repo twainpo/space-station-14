@@ -2,17 +2,17 @@
 - type: biomeTemplate
   id: Continental
   layers:
+#    - !type:BiomeMetaLayer
+#      template: Lava
     - !type:BiomeMetaLayer
-      template: Lava
-    - !type:BiomeMetaLayer
-      template: Caves
-      threshold: -0.5
-      noise:
-        frequency: 0.001
-        noiseType: OpenSimplex2
-        fractalType: FBm
-        octaves: 2
-        lacunarity: 2
+#      template: Caves
+#      threshold: -0.5
+#      noise:
+        # frequency: 0.001
+        # noiseType: OpenSimplex2
+        # fractalType: FBm
+        # octaves: 2
+        # lacunarity: 2
     - !type:BiomeMetaLayer
       template: Grasslands
       threshold: 0

@@ -320,7 +320,8 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
 
     private bool CanLoad(EntityUid uid)
     {
-        return !_ghostQuery.TryComp(uid, out var ghost) || ghost.CanGhostInteract;
+        return true;
+        //return !_ghostQuery.TryComp(uid, out var ghost) || ghost.CanGhostInteract;
     }
 
     public override void Update(float frameTime)
